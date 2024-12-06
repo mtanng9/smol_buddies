@@ -1,8 +1,31 @@
-# React + Vite
+# Smol Buddies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is website of an online stuffed animal store. The store displays sale, popular items, and navigation to get to certain categories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![webpage screenshot]()
+
+## Table of Contents (Optional)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+- npm install
+- npm run dev
+
+## Usage
+
+Website is available at: [Coming Soon]()
+
+## Credits
+
+My My, myself and I
+
+## License
+
+MIT
