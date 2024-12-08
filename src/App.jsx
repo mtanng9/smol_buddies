@@ -5,6 +5,14 @@ import Hero from "./components/Hero";
 import PhotoAd from "./components/PhotoAd";
 import BestSellerComp from "./components/BestSellerComp";
 import FooterInfo from "./components/FooterInfo";
+import classicBear from "./images/classicBear.png";
+import lovedDuck from "./images/lovedDuck.png";
+import birdy from "./images/birdy.png";
+import pengy from "./images/pengy.png";
+import lavee from "./images/lavee.png";
+import logoBear from "./images/logo-bear.png";
+import insta from "./images/insta.png";
+import facebook from "./images/facebook.png";
 
 function App() {
   return (
@@ -12,72 +20,83 @@ function App() {
       <AdSpace />
       <Header />
       <Hero />
-      <div>
+      <div className="flex flex-col bg-blue-background p-3 mt-4">
         <PhotoAd
+          img={classicBear}
           alt="This will be a photo of a teddy bear"
           text="Adored Classics"
         />
         <PhotoAd
-          alt="This will be a photo of shark stuffies"
-          text="Discover our most loved"
+          img={lovedDuck}
+          alt="This will be a photo of duck stuffies"
+          text="Most loved"
         />
       </div>
 
-      <div>
-        <h2>Trending</h2>
+      <div className="flex flex-col bg-white text-blue-background">
+        <h2 className="flex justify-center font-bold text-4xl mt-4">
+          Trending
+        </h2>
         <BestSellerComp
           para="Best Seller"
+          img={birdy}
           alt="Photo of Shark"
-          description="description of shark"
-          price="$25"
-        />
-        <BestSellerComp
-          para="Best Seller"
-          alt="Photo of Another Shark"
-          description="description of another shark"
-          price="$25"
+          description="Birdy"
+          price="$15"
         />
         <BestSellerComp
           para="Back in Stock"
+          img={pengy}
+          alt="Photo of Another Shark"
+          description="Pengy"
+          price="$15"
+        />
+        <BestSellerComp
+          para="New Item"
+          img={lavee}
           alt="Photo of Teddy Bear"
-          description="description of Teddy Bear"
-          price="$25"
+          description="Lavee"
+          price="$15"
         />
       </div>
 
-      <div>
-        <img src="" alt="Logo Picture" />
+      <div className="flex flex-col bg-blue-background mt-3">
+        <h2 className="flex justify-center text-white font-bold text-4xl mt-4">
+          Information
+        </h2>
+        <img src={logoBear} alt="Logo Picture" />
 
-        <FooterInfo infoTitle="Shopping">
-          <ul>
-            <li>Need Help?</li>
-            <li>Delivery</li>
-            <li>Return</li>
-            <li>Gift Options</li>
-            <li>Safety Care</li>
-          </ul>
-        </FooterInfo>
+        <FooterInfo
+          infoTitle="Shopping"
+          items={[
+            "Need Help?",
+            "Delivery",
+            "Return",
+            "Gift Options",
+            "Safety Care",
+          ]}
+        ></FooterInfo>
 
-        <FooterInfo infoTitle="About Us">
-          <ul>
-            <li>Our Story</li>
-            <li>Store Locator</li>
-            <li>Newsletter Sign Up</li>
-          </ul>
-        </FooterInfo>
+        <FooterInfo
+          infoTitle="About Us"
+          items={["Our Story", "Store Locator", "Newsletter Sign Up"]}
+        ></FooterInfo>
 
-        <FooterInfo infoTitle="Legal">
-          <ul>
-            <li>Privacy and Cookies</li>
-            <li>Terms of Use</li>
-            <li>Accesibility Statement</li>
-          </ul>
-        </FooterInfo>
+        <FooterInfo
+          infoTitle="Legal"
+          items={[
+            "Privacy and Cookies",
+            "Terms of Use",
+            "Accessibility Statement",
+          ]}
+        ></FooterInfo>
 
-        <div>
-          <p>Join Our SmolBuddies</p>
-          <img src="" alt="social media logo 1" />
-          <img src="" alt="social media logo 2" />
+        <div className="flex flex-col bg-white rounded-lg m-3 p-4 text-3xl">
+          <p className="font-bold text-blue-background mx-3 text-center">
+            Join our smolBuddies!
+          </p>
+          <img src={insta} alt="insta logo" />
+          <img src={facebook} alt="facebook logo" />
         </div>
       </div>
     </>

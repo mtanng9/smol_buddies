@@ -1,10 +1,10 @@
-export default function BestSellerComp({ para, alt, description, price }) {
+export default function BestSellerComp({ para, img, alt, description, price }) {
   return (
     <div>
-      <p>{para}</p>
-      <img src="" alt={alt} />
-      <p>{description}</p>
-      <p>{price}</p>
+      <p className="text-xl font-bold mt-3">{para}</p>
+      <img src={img} alt={alt} />
+      <p className="flex justify-center ">{description}</p>
+      <p className="flex justify-center text-dark-orange mb-3">{price}</p>
     </div>
   );
 }
