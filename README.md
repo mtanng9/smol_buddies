@@ -1,8 +1,7 @@
 # Smol Buddies
 
 ## Description
-
-This is website of an online stuffed animal store. The store displays sale, popular items, and navigation to get to certain categories.
+I designed and developed smolBuddies, a front-end website for an online stuffed animal store. The site features sections for sales, popular items, and intuitive navigation to various product categories. The project began with a wireframe and visual mockup created in Canva before translating the design into a fully functional website using React and Tailwind CSS. While the app currently focuses on front-end functionality, it highlights user experience and design principles in e-commerce.
 
 ![webpage screenshot]()
 
