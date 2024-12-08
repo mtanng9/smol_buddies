@@ -1,6 +1,6 @@
 export default function FooterInfo({ infoTitle, items }) {
   return (
-    <div className="flex flex-col bg-white rounded-lg m-3">
+    <div className="flex flex-col bg-white rounded-3xl m-3 lg:w-1/4">
       <h3 className="flex justify-center font-bold text-2xl text-dark-orange m-3">
         {infoTitle}
       </h3>
