@@ -25,7 +25,7 @@ To view the project locally:
    ```
 2. Navigate to the project directory and install dependencies:
    ```bash
-   cd smolbuddies
+   cd smol_buddies
    npm install
    ```
 3. Start the development server:
