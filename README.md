@@ -1,30 +1,39 @@
-# Smol Buddies
+# smolBuddies
 
-## Description
-I designed and developed smolBuddies, a front-end website for an online stuffed animal store. The site features sections for sales, popular items, and intuitive navigation to various product categories. The project began with a wireframe and visual mockup created in Canva before translating the design into a fully functional website using React and Tailwind CSS. While the app currently focuses on front-end functionality, it highlights user experience and design principles in e-commerce.
+## Project Overview
+smolBuddies is a front-end website I designed and developed for an online stuffed animal store. This project primarily focused on practicing React and Tailwind CSS to create a responsive and user-friendly interface. The website was developed with a mobile-first approach and later adapted for wider screens.
 
-![webpage screenshot]()
+## Design and Development Process
+I started the project by creating a detailed wireframe and visual mockup in Canva. Then, I translated these designs into a functional website using **React** and **Tailwind CSS**. My focus was on making the website engaging, easy to use, and visually appealing for an e-commerce experience.
 
-## Table of Contents (Optional)
+## Technologies Used
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- **React**: For building the dynamic user interface.
+- **Tailwind CSS**: To ensure a responsive and visually appealing design.
 
-## Installation
+## Known Issues and Future Directions
+One challenge faced during development was related to the logo and product images, which are all in PNG format. This slightly affected the styling compared to the initial rendering sketch. In the future, these aspects will be revisited to enhance styling consistency and ensure an even better user experience.
 
-- npm install
-- npm run dev
+## Getting Started
+To view the project locally:
 
-## Usage
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   ```
+2. Navigate to the project directory and install dependencies:
+   ```bash
+   cd smolbuddies
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Website is available at: [Coming Soon]()
+## Future Plans
+- Incorporate a backend to enable item purchasing and inventory management.
+- Add a login feature to allow users to save items to their cart.
+- Optimize image formats for faster loading and improved styling consistency.
+- Add animations for a more interactive shopping experience.
 
-## Credits
-
-My My, myself and I
-
-## License
-
-MIT
