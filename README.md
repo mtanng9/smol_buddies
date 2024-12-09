@@ -3,6 +3,8 @@
 ## Project Overview
 smolBuddies is a front-end website I designed and developed for an online stuffed animal store. This project primarily focused on practicing React and Tailwind CSS to create a responsive and user-friendly interface. The website was developed with a mobile-first approach and later adapted for wider screens.
 
+![Screenshot 2024-12-08 at 11 21 56 PM](https://github.com/user-attachments/assets/0745dd06-fe2f-4cbf-bcfb-b0c71e804851)
+
 ## Design and Development Process
 I started the project by creating a detailed wireframe and visual mockup in Canva. Then, I translated these designs into a functional website using **React** and **Tailwind CSS**. My focus was on making the website engaging, easy to use, and visually appealing for an e-commerce experience.
 
@@ -28,7 +30,7 @@ To view the project locally:
    ```
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Future Plans
